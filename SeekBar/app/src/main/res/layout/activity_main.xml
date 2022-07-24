@@ -1,0 +1,43 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:progress="20"
+        android:id="@+id/sb1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="end"
+        android:text="progress 1"
+        android:id="@+id/tv1"
+        android:layout_height="wrap_content"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/sb2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="end"
+        android:text="progress 2"
+        android:id="@+id/tv2"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/bt"/>
+
+
+
+
+
+</LinearLayout>

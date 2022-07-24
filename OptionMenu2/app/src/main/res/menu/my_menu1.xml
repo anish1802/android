@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/it1"
+    android:title="welcome">
+
+    <menu>
+
+        <item
+            android:id="@+id/sm1"
+            android:title="Sub1"/>
+
+        <item
+            android:id="@+id/sm2"
+            android:title="Sub2"/>
+
+    </menu>
+</item>
+
+    <item
+        android:id="@+id/it2"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_access_alarms_24"
+        android:title="java"/>
+
+    <item
+        android:id="@+id/it3"
+        app:showAsAction="always"
+        android:title="python"/>
+
+
+</menu>

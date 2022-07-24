@@ -1,0 +1,29 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:id="@+id/tb1"
+        android:layout_height="wrap_content"/>
+
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:textOn="Start"
+        android:textOff="Stop"
+        android:id="@+id/tb2"
+        android:layout_height="wrap_content"/>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Submit"
+    android:id="@+id/bt"/>
+
+
+
+</LinearLayout>

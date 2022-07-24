@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/w1"
+        android:title="Welcome 1"/>
+
+    <item
+        android:id="@+id/w2"
+        android:title="Welcome 2"/>
+
+    <item
+        android:id="@+id/w3"
+        android:title=" Welcome 3"/>
+
+</menu>
